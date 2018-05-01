@@ -1,0 +1,16 @@
+package com.kopo;
+
+import java.util.Scanner;
+
+public class middle_answerEx1 {
+public static void main(String[] args) {
+	
+	//판매원과 매출애 관련 배열
+	int num[][] = new int[3][2; //행, 열=> 3개의 행(판매원), 2열(판매번호, 매출액)
+	int total =0;
+	double avg=0;
+	
+	canner scan = new Scanner(System.in);
+	
+}
+}

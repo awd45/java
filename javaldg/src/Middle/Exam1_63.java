@@ -1,0 +1,41 @@
+package Middle;
+
+import java.util.Scanner;
+
+public class Exam1_63 {
+
+	public static void main(String[] args) {
+		
+		//조건문 연습문제
+		int number;	// 평점
+		int salesTotal;	// 토익 점수
+		
+		// Scanner 클래스 사용
+        Scanner scan = new Scanner(System.in);
+	// 평점을 입력 받는다
+        System.out.print("판매원의 번호를 입력하세요: ");
+        number = scan.nextInt();
+	// 토익 점수를 입력 받는다
+	System.out.print("판매원" +number + "의  매출액을 입력하세요 :");
+	salesTotal = scan.nextInt();
+	
+	System.out.print("판매원의 번호를 입력하세요: ");
+    number = scan.nextInt();
+	
+    System.out.print("판매원" +number + "의  매출액을 입력하세요 :");
+	salesTotal = scan.nextInt();
+
+	System.out.print("판매원의 번호를 입력하세요: ");
+    number = scan.nextInt();
+	
+    System.out.print("판매원" +number + "의  매출액을 입력하세요 :");
+	salesTotal = scan.nextInt();
+
+
+	
+	//값 출력
+	
+	System.out.println("판매원"+ number + "salesTotal");
+	
+	}
+}
